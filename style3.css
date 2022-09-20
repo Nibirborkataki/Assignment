@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Merienda&family=Merriweather&family=Montserrat:ital,wght@0,100;1,400&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Merienda&family=Merriweather&family=Montserrat:ital,wght@0,100;1,400&family=Roboto:wght@100;400&family=Sacramento&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),transparent),url(tripura.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:  20px 30px;
+    cursor: pointer;
+    background-color: rgb(56, 17, 171);
+}
+h2
+{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
+h2 .head
+{
+    color: rgb(21, 142, 241);
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style:none;   
+    position: relative;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'DynaPuff', cursive;
+    font-size: 20px;
+}
+nav ul  li a:hover
+{   
+    transition: 0.3s;
+    color: rgb(21, 142, 241);
+}
+.dropdownmenu
+{
+    display: none;
+    background-color: rgb(56, 17, 171);
+    z-index: 1;
+}
+nav ul li:hover .dropdownmenu
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.dropdownmenu ul
+{
+    display: block;
+    margin: 5px;
+}
+.dropdownmenu ul li
+{
+    padding: 2px;
+    width: 150px;
+}
+.box
+{
+    position: relative;
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    left: 25%;
+}
+.box h1
+{
+    color:rgb(21, 142, 241);
+    font-size: 65px;
+    padding-left: 250px;
+    
+}
+.box h5
+{
+    color: rgb(198, 198, 196);
+    font-size: 22px;
+    padding-left: 280px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+.box p
+{
+    color: #fff;
+    font-family: 'DynaPuff', cursive;
+    font-size: 15px;
+    text-align: center;
+}
